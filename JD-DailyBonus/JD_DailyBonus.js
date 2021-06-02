@@ -120,7 +120,7 @@ async function all() {
         JingDongShake(stop), //京东摇一摇
         JDSecKilling(stop), //京东秒杀
         JingDongJingCai(stop), //京东精彩
-        JingDongBuyCar(stop, '6cd8e0c2e84a421ebf4a39d502141861'), //京东汽车
+        //JingDongBuyCar(stop, '6cd8e0c2e84a421ebf4a39d502141861'), //京东汽车
         JingRongDoll(stop, 'JRDoll', '京东金融-签壹', '4D25A6F482'),
         JingRongDoll(stop, 'JRTwoDoll', '京东金融-签贰', '3A3E839252'),
         JingRongDoll(stop, 'JRThreeDoll', '京东金融-签叁', '69F5EC743C'),
@@ -170,7 +170,7 @@ async function all() {
       await JingDongShake(Wait(stop)); //京东摇一摇
       await JDSecKilling(Wait(stop)); //京东秒杀
       await JingDongJingCai(Wait(stop)); //京东精彩
-      await JingDongBuyCar(Wait(stop), '6cd8e0c2e84a421ebf4a39d502141861'); //京东汽车
+     // await JingDongBuyCar(Wait(stop), '6cd8e0c2e84a421ebf4a39d502141861'); //京东汽车
       await JingRongDoll(Wait(stop), 'JRTwoDoll', '京东金融-签贰', '3A3E839252');
       await JingRongDoll(Wait(stop), 'JRThreeDoll', '京东金融-签叁', '69F5EC743C');
       await JingRongDoll(Wait(stop), 'JRFourDoll', '京东金融-签肆', '30C4F86264');
